@@ -21,3 +21,5 @@ add "app",   in installed apps from settings.py
 
 #create superuser
 >python manage.py createsuperuser
+
+>python manage.py runserver
