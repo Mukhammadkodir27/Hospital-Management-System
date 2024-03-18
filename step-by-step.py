@@ -23,3 +23,11 @@ add "app",   in installed apps from settings.py
 >python manage.py createsuperuser
 
 >python manage.py runserver
+
+# add the following
+STATIC_URL = "/static/"
+STATIC_ROOT = "/static/"
+
+STATICFILES_DIRS = [
+   os.path.join(BASE_DIR, "static")
+]
