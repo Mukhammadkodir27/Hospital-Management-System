@@ -4,8 +4,8 @@
 # to create our virtual environment
 > python -m venv my-venv 
 
+#notice (my-venv) has to appear in your terminal, it means virtual environment is activated
 (my-venv) > pip install django 
 
 django-admin startproject Hospital
-
 
